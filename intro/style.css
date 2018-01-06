@@ -29,6 +29,11 @@ h2{
     clear: both;
 }
 
+.container {
+    width: 600px;/* En el curso indica 1140 de tamaño pero mi monitor es viejo */
+    margin: 20px auto 0 auto; 
+}
+
 .main-text{
     text-align: justify;
     margin-bottom: 10px;
@@ -36,10 +41,6 @@ h2{
 
 .author-text{
     font-size:22px;
-}
-.container {
-    width: 600px;/* En el curso indica 1140 de tamaño pero mi monitor es viejo */
-    margin: 20px auto 0 auto; 
 }
 
 .blog-post {
