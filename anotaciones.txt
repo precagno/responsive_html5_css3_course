@@ -1,0 +1,12 @@
+7/01/2018
+
+*)border-radius: porcentaje 
+#redondea un elemento
+
+*)Para alinear elementos , ejemplo , uno tras otro , tienen que tener la propiedad css float , por ejemplo , ambos elems con valor left.Sí después del último elemento a alinear va otro elemento que no se quiere alineado , hay que usar un elemento clearfix para lograr la separación.A continuación el código css de dicho elemento
+
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
