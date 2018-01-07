@@ -12,3 +12,14 @@
 }
 
 *)Para hacer que un elemento tenga posición absoluta , su elemento padre debe tener posición relativa.
+
+*)Tips tipografía:1)La letra del body debería ser de entre 15 y 25px.
+2)El tamaño de la letra de los headlines debería ser grande , basándose en el Flat Design.
+3)El line spacing debería de ser entre 120 y 150% del tamaño de la letra.
+4)De 45 a 90 caracteres por línea es lo óptimo.
+5)Sans serif es el tipo de letra más usado actualmente: es simple y moderna.Serif , es para contar historias largas , tiene terminaciones en la punta de cada letra(eso es el serif) , es menos usada que el sans-serif.
+6)Letras sans-serif muy usadas(disponibles en google web fonts): Open Sans , Lato, Raleway , Montserrat , PT Sans.
+7)Letras serif muy usadas(disponibles en google web fonts):Cardo , Merriwheather , PT Serif.
+
+*)Tips colores:1)lo principal es elegir un color base y después hacer una paleta en base a ese color , sea con colores más claros o más oscuros(es recomendable usar un color de esta página https://flatuicolors.com/).
+2)Sí no se sabe que colores usar , elegir un color que resalte para lo que más se quiera resaltar(ejemplo botor comprar) y luego elegir uno o dos colores más que acompañen , pero que no llamen más la atención que el primer color.

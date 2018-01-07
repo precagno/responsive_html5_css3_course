@@ -1,3 +1,4 @@
 *) https://randomuser.me/ (api usuarios random)
 *) http://www.blindtextgenerator.com/lorem-ipsum (similar a lipsum.org)
 *) http://codingheroes.io/resources/ (listado de recursos varios , creada por el autor del curso)
+*) https://www.diffchecker.com/ (especie de Meld online)
