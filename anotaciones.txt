@@ -10,3 +10,5 @@
     display: table;
     clear: both;
 }
+
+*)Para hacer que un elemento tenga posición absoluta , su elemento padre debe tener posición relativa.
