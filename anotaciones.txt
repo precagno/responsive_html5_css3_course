@@ -23,3 +23,27 @@
 
 *)Tips colores:1)lo principal es elegir un color base y después hacer una paleta en base a ese color , sea con colores más claros o más oscuros(es recomendable usar un color de esta página https://flatuicolors.com/).
 2)Sí no se sabe que colores usar , elegir un color que resalte para lo que más se quiera resaltar(ejemplo botor comprar) y luego elegir uno o dos colores más que acompañen , pero que no llamen más la atención que el primer color.
+
+7 Pasos para crear un sitio web:
+1)Definir tu proyecto
+-Definir el objetivo de tu sitio(blog,vender un e-book,portfolio,etc).
+-Definir a que audiencia se dirige el sitio.
+-Diseñar la pagina teniendo en cuenta el objetivo y la audiencia en mente.
+2)Planificacion del proyecto:
+-Planificar todo:texto,imagenes,videos,iconos,etc(diseñar la web pensando en el contenido y no hacer el sitio y luego llenarla de contenido).
+-Definir la jerarquia visual.
+-Definir la navegacion.
+-Pensar la estructura del sitio(un mapa del sitio es de ayuda).
+3)Bocetos e ideas:
+-Conseguir inspiracion.
+-Anotar las ideas para retenerlas.
+-Hacer tantos briefs como sean necesarios , pero sin perfeccionarlos , eso se hara una vez que empecemos a desarrollar con html y css.
+-Nunca empezar a diseñar sin tener una idea de lo que se quiere hacer.
+4)Diseño y desarrollo 
+-Diseño y desarrollo en el browser(Sin Photoshop,diseñar y codear al mismo tiempo).
+5)Optimizacion:
+-Velocidad del sitio
+-Optimizacion del motor de busqueda(SEO).
+6)Deployar el sitio en un web server
+7)Mantenimiento del sitio
+-Monitoreo del comportamiento de los usuarios y actualizaciones del sitio(ej escribir nuevos posts en un blog).
