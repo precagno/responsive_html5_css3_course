@@ -47,3 +47,8 @@
 6)Deployar el sitio en un web server
 7)Mantenimiento del sitio
 -Monitoreo del comportamiento de los usuarios y actualizaciones del sitio(ej escribir nuevos posts en un blog).
+
+3 ingredientes del diseño responsive:
+1)fluid grid: todos los elementos se miden en unidades relativas(ej porcentajes) y no en pixeles(forma absoluta).
+2)imagenes que se puedan adaptar al contexto.
+3)Media queries: diferentes estilos css para distintos tamaños de pantalla.
