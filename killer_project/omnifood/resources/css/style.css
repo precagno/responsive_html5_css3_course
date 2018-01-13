@@ -14,7 +14,7 @@ html{
 }
 
 .row{
-    max-width: 1140px;
+    max-width: 968px;/*En el tutorial el valor es 1140px*/
     margin: 0 auto;
 }
 
@@ -26,6 +26,9 @@ header{/*como centrar la imagen de fondo*/
 }
 
 .hero-text-box{
+   
+    width: 968px;/*En el tutorial el valor es 1140px*/
+    /*Para centrar el texto*/
     position: absolute;
     top: 50%;
     left: 50%;
@@ -33,7 +36,53 @@ header{/*como centrar la imagen de fondo*/
 }
 
 h1{
-    margin: 0;
+    margin: 0 0 10px 0;
     color:#fff;
     font-size: 200%;/*tamaño relativo al ser responsive web design*/
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+/*CSS states: link,visited,hover,active*/
+
+.btn:link,
+.btn:visited{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2s,border 0.2s,color 0.2s;
+}
+
+.btn-full:link,
+.btn-full:visited{
+    background-color: #e67e22;
+    border:1px solid #e67e22;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited{
+    border:1px solid #e67e22;
+    color: #e67e22;
+}
+
+.btn:hover,
+.btn:active{
+    background-color: #cf6d17;
+}
+
+.btn-full:hover,
+.btn-full:active{
+    border: 1px solid #cf6d17;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active{
+    border: 1px solid #cf6d17;
+    color:#fff;
 }
