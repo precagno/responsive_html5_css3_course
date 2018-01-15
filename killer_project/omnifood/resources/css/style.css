@@ -25,7 +25,7 @@ html{
 /*REUSABLE COMPONENTS*/
 /*-------------------------------------*/
 .row{
-    max-width: 900px;/*En el tutorial el valor es 1140px*/
+    max-width: 1140px;/*En el tutorial el valor es 1140px*/
     margin: 0 auto;
 }
 
@@ -98,7 +98,7 @@ header{/*como centrar la imagen de fondo*/
 
 .hero-text-box{
    
-    width: 900px;/*En el tutorial el valor es 1140px*/
+    width: 1140px;/*En el tutorial el valor es 1140px*/
     /*Para centrar el texto*/
     position: absolute;
     top: 50%;
