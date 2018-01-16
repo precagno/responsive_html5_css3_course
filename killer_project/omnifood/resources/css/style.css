@@ -20,7 +20,6 @@ html{
     font-size: 20px;
     text-rendering: optimizeLegibility;
 }
-
 /*-------------------------------------*/
 /*REUSABLE COMPONENTS*/
 /*-------------------------------------*/
@@ -32,11 +31,22 @@ html{
 section{
     padding: 80px 0;
 }
+
+.box{
+    padding: 1%;
+}
+
+.box p{
+    font-size: 90%;
+    line-height: 145%;
+    text-align: justify;
+}
 /*-------------------------------------*/
 /*HEADINGS*/
 /*-------------------------------------*/
 h1,
-h2{
+h2,
+h3{
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -66,6 +76,11 @@ h2:after{/*subrayado al h2*/
     margin-top: 30px;
 }
 
+h3{
+    font-size: 110%;
+    margin-bottom: 20px;
+    letter-spacing: normal;
+}
 /*-------------------------------------*/
 /*PARAGRAPHS*/
 /*-------------------------------------*/
@@ -74,11 +89,15 @@ h2:after{/*subrayado al h2*/
     width: 70%;
     margin: 0 15%;
 }
-
-.box{
-    
+/*-------------------------------------*/
+/*ICONS*/
+/*-------------------------------------*/
+.icon-big{
+    font-size: 350%;
+    display: block;
+    margin-bottom: 15px;
+    color:#e67e22;
 }
-
 /*-------------------------------------*/
 /*BUTTONS*/
 /*-------------------------------------*/
@@ -121,7 +140,6 @@ h2:after{/*subrayado al h2*/
     border: 1px solid #cf6d17;
     color:#fff;
 }
-
 /*-------------------------------------*/
 /*HEADER*/
 /*-------------------------------------*/
