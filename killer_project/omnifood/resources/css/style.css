@@ -194,14 +194,24 @@ header{/*como centrar la imagen de fondo*/
     border-bottom: 2px solid #e67e22; 
 }
 /*-------------------------------------*/
+/*FEATURES*/
+/*-------------------------------------*/
+.section-features .long-copy{
+    margin-bottom: 30px;
+}
+/*-------------------------------------*/
 /*MEALS*/
 /*-------------------------------------*/
-.meals-showcase{
+.section-meals{
+    padding: 0;
+}
+
+.section-meals{
     list-style: none;
     width: 100%;
 }
 
-.meals-showcase li{
+.section-meals li{
     display: block;
     float: left;
     width: 25%;
@@ -210,9 +220,19 @@ header{/*como centrar la imagen de fondo*/
 .meal-photo{
     width: 100%;
     margin: 0;
+    overflow: hidden;
+    background-color: #000000;
 }
 
 .meal-photo img{
+    opacity: 0.7;
     width: 100%;
     height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s,opacity 0.5s;
+}
+
+.meal-photo img:hover{
+    transform: scale(1.06);
+    opacity: 1;
 }
