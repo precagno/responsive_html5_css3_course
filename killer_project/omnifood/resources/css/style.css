@@ -93,11 +93,33 @@ h3{
 /*ICONS*/
 /*-------------------------------------*/
 .icon-big{
-    font-size: 350%;
     display: block;
+    font-size: 350%;
     margin-bottom: 15px;
     color:#e67e22;
 }
+
+.icon-small{
+    display: inline-block;
+    font-size: 120%;
+    width: 30px;
+    text-align: center;
+    color: #e67e22;
+    margin-right: 10px;
+    
+    /*Secrets to align text and icons*/
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top:-6px;
+}
+
+/*-------------------------------------*/
+/*BUTTONS*/
+/*-------------------------------------*/
+a{
+    color:#e67e22;
+}
+
 /*-------------------------------------*/
 /*BUTTONS*/
 /*-------------------------------------*/
@@ -296,4 +318,16 @@ header{/*como centrar la imagen de fondo*/
     display: block;
     height: 0;
     visibility: hidden;
+}
+/*-------------------------------------*/
+/*CITIES*/
+/*-------------------------------------*/
+.box img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.city-feature{
+    margin-bottom: 5px;
 }
