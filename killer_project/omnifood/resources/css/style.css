@@ -114,12 +114,21 @@ h3{
 }
 
 /*-------------------------------------*/
-/*BUTTONS*/
+/*LINKS*/
 /*-------------------------------------*/
-a{
+a:link,
+a:visited{
     color:#e67e22;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #e67e22;
+    transition:color 0.2s,border-bottom 0.2s;
 }
 
+a:hover,a:active{
+    color:#555;
+    border-bottom: 1px solid transparent;
+}
 /*-------------------------------------*/
 /*BUTTONS*/
 /*-------------------------------------*/
@@ -299,6 +308,10 @@ header{/*como centrar la imagen de fondo*/
     float: left;
     font-size: 150%;
     margin-right: 25px;
+}
+
+.steps-box a{
+    border: 0;
 }
 
 .btn-app img{
