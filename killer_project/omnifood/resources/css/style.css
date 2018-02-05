@@ -220,6 +220,27 @@ header{/*como centrar la imagen de fondo*/
     margin-top: 20px
 }
 
+.logo-black{
+    height: 50px;
+    width: auto;
+    float: left;
+    margin: 5px 0;
+}
+
+.logo-black{
+    display: none;
+}
+
+.sticky .logo{
+    display: none;
+}
+.sticky .logo-black{
+    display: block;
+    margin-top: 4px;
+}
+/*-------------------------------------*/
+/*MAIN NAVIGATION*/
+/*-------------------------------------*/
 .main-nav{
     float: right;
     list-style: none;
@@ -241,12 +262,33 @@ header{/*como centrar la imagen de fondo*/
     -webkit-transition: border-bottom 0.2s;
     -o-transition: border-bottom 0.2s;
     transition: border-bottom 0.2s;
-    padding: 8px 0;
+    padding: 3px 0;
 }
 
 .main-nav li a:hover,
 .main-nav li a:active{
     border-bottom: 2px solid #e67e22; 
+}
+/*-------------------------------------*/
+/*STICKY NAVIGATION*/
+/*-------------------------------------*/
+.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 2px 2px #efefef;
+}
+
+.sticky .main-nav{
+    margin-top: 20px
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited{
+    color: #555;
+    padding: 20px 0;
 }
 /*-------------------------------------*/
 /*FEATURES*/
