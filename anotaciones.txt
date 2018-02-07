@@ -52,3 +52,10 @@
 1)fluid grid: todos los elementos se miden en unidades relativas(ej porcentajes) y no en pixeles(forma absoluta).
 2)imagenes que se puedan adaptar al contexto.
 3)Media queries: diferentes estilos css para distintos tamaños de pantalla.
+
+Anclas con jquery:
+
+/*Scroll to selector*/
+$(".js--button-scroll-to-plans").click(function(){
+	$("html,body").animate({scrollTop:$(".js--section-plans").offset().top},2000);
+});
