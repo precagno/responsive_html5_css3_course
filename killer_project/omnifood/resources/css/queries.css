@@ -50,6 +50,12 @@
 @media only screen and (max-width: 767px) {
     body{font-size: 16px;}
     
+    a:link,
+    a:visited{
+        color:#555;
+        border-bottom: 1px solid transparent;
+    }
+    
     section{padding:30px 0;}
     
     .row,
@@ -59,13 +65,13 @@
         width: 100%;
         margin: 0 0 4% 0;
     }
-    
-    .main-nav{display: none;}
+        
     .mobile-nav-icon{display: inline-block;}
     
     .main-nav{
+        display: none;
         float:left;
-        margin:15px 0 0 30px;
+        margin:25px 0 0 30px;
     }
     
     .main-nav li{display: block;}
