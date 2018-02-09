@@ -59,3 +59,14 @@ Anclas con jquery:
 $(".js--button-scroll-to-plans").click(function(){
 	$("html,body").animate({scrollTop:$(".js--section-plans").offset().top},2000);
 });
+
+/*Formas de optimizar tu sitio*/
+
+1)Optimizar imagenes pesadas y minificar código css y js
+
+
+
+
+
+
+
