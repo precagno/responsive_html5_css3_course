@@ -192,10 +192,10 @@ input[type=submit]{
 /*HEADER*/
 /*-------------------------------------*/
 header{/*como centrar la imagen de fondo*/
-    background-image:-webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.7)),to(rgba(0, 0, 0, 0.7))),url(img/hero.jpg);
-    background-image:-webkit-linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(img/hero.jpg);
-    background-image:-o-linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(img/hero.jpg);
-    background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(img/hero.jpg);
+    background-image:-webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.7)),to(rgba(0, 0, 0, 0.7))),url(img/hero-min.jpg);
+    background-image:-webkit-linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(img/hero-min.jpg);
+    background-image:-o-linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(img/hero-min.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(img/hero-min.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -439,10 +439,10 @@ header{/*como centrar la imagen de fondo*/
 /*TESTIMONIALS*/
 /*-------------------------------------*/
 .section-testimonials{
-    background-image:-webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.8)),to(rgba(0, 0, 0, 0.8))),url(img/back-customers.jpg);
-    background-image:-webkit-linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url(img/back-customers.jpg);
-    background-image:-o-linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url(img/back-customers.jpg);
-    background-image:linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url(img/back-customers.jpg);
+    background-image:-webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.8)),to(rgba(0, 0, 0, 0.8))),url(img/back-customers-min.jpg);
+    background-image:-webkit-linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url(img/back-customers-min.jpg);
+    background-image:-o-linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url(img/back-customers-min.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url(img/back-customers-min.jpg);
     background-size: cover;
     background-attachment: fixed;
     color: #fff;
